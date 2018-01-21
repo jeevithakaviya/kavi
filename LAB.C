@@ -1,0 +1,21 @@
+#include<stdio.h>
+ Void main ()
+ {
+ int a,b,c;
+ printf("three numbers ");
+ scanf("%d%d%,&a,&b,&c);
+ if(a>b||a>c)
+ {
+ printf("%d",a);
+ }
+ elseif(b>a||b>c)
+ {
+ pintf("%d",b);
+ }
+ else
+ {
+ printf("c is greater");
+ }
+ getch();
+}
+ 
